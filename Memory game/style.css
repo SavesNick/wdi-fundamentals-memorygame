@@ -1,6 +1,7 @@
 h1 {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
+    margin: 0;
     }
     
     p {
@@ -8,4 +9,70 @@ h1 {
     }
     body {
         text-align: center;
+        
         }
+    header{
+background-color: #f15b31;
+color:white;
+padding: 30px 20px 30px;
+    }
+    nav{
+margin:20px;
+background-color: #00a6b3;
+color: white;
+padding:20px 0 20px;
+}
+a{
+    color: white;
+    margin: 0 20px 0 20px;
+    font-family: "Raleway",serif;
+    text-decoration: none;
+    
+}
+main{
+    width: 850px;
+    margin: 35px auto 35px auto;
+}
+img{
+margin:40px 8px auto;
+
+}
+footer{
+text-transform:uppercase;
+padding-left: 20px;
+padding-right:20px;
+background-color: #0d2c40;
+color: white;
+font-size: 14px;
+letter-spacing: .08em;
+font-weight: 500;
+}
+
+.copyright{
+float: left;
+}
+.message{
+float: right;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+    }
+
+.name{
+    color: #f15b31;
+    font-weight: 700;
+}    
+
+a:hover{
+    border-bottom: 2px solid transparent;
+
+}
+a:hover{
+    border-bottom: 2px solid white;
+    
+}
